@@ -44,4 +44,4 @@ void move_iterate(int n, char des, char now, char temp) {
 }
 int main() {
 	while (1) { ready(); move_iterate(n, 'C', 'A', 'B'); }
-}
+ }
