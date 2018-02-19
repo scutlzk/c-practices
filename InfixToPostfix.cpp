@@ -1,3 +1,7 @@
+/*
+1+2+3+4+(5*60)*-8
+1 2 + 3 + 4 + 5 60 * -8 * +
+*/
 #include<iostream>
 #include<string>
 #include<stack>
@@ -10,7 +14,7 @@ string InfixToPostfix(string infix)
 	string postfix;
 	int n;
 	char t;
-	a >> n;		//式子第一个肯定是数字
+	a >> n;		//脢陆脳脫碌脷脪禄赂枚驴脧露篓脢脟脢媒脳脰
 
 	postfix += to_string(n);
 	while (a >> t)
